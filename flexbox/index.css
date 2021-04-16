@@ -1,0 +1,26 @@
+.box{
+    background-color:rgb(111, 10, 170);
+    height: 50px;
+    margin-bottom: 10px;
+}
+.boxdos{
+    height: 150px;
+    background-color: rgb(111, 10, 170);
+    margin-bottom: 10px;
+}
+
+.boxtres{
+    background-color: rgb(71, 89, 255);
+    height: 64px;
+    margin-bottom: 15px;
+   margin: 10px;
+
+}
+.tres{
+    margin: 10px;
+
+}
+.boxcuatro{
+    background-color:crimson;
+    height: 70px;
+}

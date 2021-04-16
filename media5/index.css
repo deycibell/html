@@ -1,0 +1,75 @@
+.celdaamarilla, .celdaverde, .celdaazul, .celdanegra {
+    color: white;
+    border: 2px solid red;
+    font-size: xx-large;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.celdanegra{
+    background-color: black;
+}
+.celdaamarilla{
+    background-color: yellow;
+    border:2px solid palegoldenrod;
+}
+.celdaazul{
+    background-color: rgb(40, 172, 172);
+}
+
+.celdaverde{
+    background-color: green;
+}
+
+@media (min-width:390px){
+   .celdaamarilla:nth-child(1){
+       margin-left: 24%;
+       width: 49%;
+       display: inline-block;
+   }
+   .celdaamarilla:nth-child(2){
+    width: 26%;
+    display: inline-block;
+   }
+   .celdaamarilla:nth-child(3){
+       width: 80%;
+       margin-left: 19%;
+   }
+   .celdaverde:nth-child(5), .celdaverde:nth-child(6){
+       width: 49.5%;
+       display: inline-block;
+   }
+   .celdaazul:nth-child(7){
+       width: 50%;
+       margin-left: 49.5%;
+   }
+   .celdaazul:nth-child(8){
+       width: 55%;
+       margin-right: 43%;
+   }
+   .celdanegra:nth-child(10){
+       width: 20%;
+       margin-left: 79%;
+   }
+}
+@media(min-width: 661px){
+    .celdaamarilla:nth-child(1), .celdaverde:nth-child(4), .celdaazul:nth-child(7){
+        width: 90%;
+        margin-left: 9%;
+        display: inline-block;
+    }
+    .celdaamarilla:nth-child(2), .celdaverde:nth-child(5), .celdaazul:nth-child(8){
+        width: 15%;
+        display: inline-block;
+        margin: 0%;
+    }
+    .celdaamarilla:nth-child(3), .celdaverde:nth-child(6), .celdaazul:nth-child(9){
+        width: 84%;
+        margin: 0%;
+        display: inline-block;
+    }
+    .celdanegra:nth-child(10){
+        width: 100%;
+        margin: auto;
+    }    
+}

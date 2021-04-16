@@ -1,0 +1,43 @@
+
+.celdaamarilla, .celdaceleste, .celdagris {
+    color: white;
+    border: 2px solid black;
+    font-size: xx-large;
+    text-align: center;
+    box-sizing: border-box;
+}
+.celdaceleste{
+    background-color: rgb(40, 172, 172);
+
+}
+.celdaamarilla{
+    background-color: yellow;
+    color:black;
+}
+.celdagris{
+    background-color: gray;
+}
+@media (min-width: 350px){
+    .celdaamarilla:nth-child(3){
+        width: 49%;
+    }
+    .celdagris:nth-child(5){
+        width: 49%;
+        display:inline-block;
+    }
+}
+    .celdagris:nth-child(6) {
+        width: 49%;
+        display:inline-block;
+    }
+}
+@media(min-width: 651px){
+    .celdagris:nth-child(5){
+        width: 60%;
+        margin-left: 39.9%;
+    }
+    .celdagris:nth-child(7){
+        width: 30%;
+        margin-right: 59.9%;
+    }
+}

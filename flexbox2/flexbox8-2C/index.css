@@ -1,0 +1,23 @@
+.box{
+    color: white;
+    border: 1px solid orangered;
+    text-align: center;
+    margin: 0px;
+    height: 64px;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+.celdanegra{
+    background-color: black;
+    border:2px solid white;
+    box-sizing:border-box;
+}   
+.celdaamarilla{
+    background-color: yellow;
+}
+.celdaazul{
+    background-color: rgb(38, 121, 173);
+}
+.celdaverde{
+    background-color: limegreen;
+}

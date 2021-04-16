@@ -1,0 +1,18 @@
+.box{
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px;
+    height: 64px;
+    padding-top:20px;
+    box-sizing: border-box;
+   }
+   .celdaazul{
+       background-color: blue;
+   }
+   .celdaamarilla{
+       background-color:yellow;
+   }
+   .celdagris{
+       background-color: gray;
+   }

@@ -1,0 +1,65 @@
+.celdaazul, .celdanaranja, .celdaverde{
+    color: white;
+    border: 2px solid black;
+    padding-top:20px;
+    text-align: center; 
+    height: 64px;
+    font-style: bolder;  
+}
+.celdaazul{
+    background-color: cornflowerblue;
+}
+.celdanaranja{
+    background-color: darkorange;
+
+}
+.celdaverde{
+    background-color:lightgreen;
+}
+
+@media (min-width: 401px){
+    .celdaazul:nth-child(1){
+        width: 48.5%;
+        display:inline-block;
+
+    }
+    .celdaazul:nth-child(2){
+        width: 48.5%;
+        display:inline-block;
+    }
+    .celdaverde:nth-child(5){
+        width: 48.5%;
+        display:inline-block;
+
+    }
+    .celdaverde:nth-child(6){
+        width: 48.5%;
+        display:inline-block;
+    }
+}
+   
+@media (min-width: 701px){
+    .celdaazul:nth-child(1){
+        width: 48.5%;
+        display:inline-block;
+
+    }
+    .celdaazul:nth-child(2){
+        width: 48.5%;
+        display:inline-block;
+    }
+    .celdanaranja:nth-child(3){
+        width: 50%;
+        margin-left:24%;
+        margin-right: 24%;
+    }
+    .celdaverde:nth-child(5){
+        width: 48.5%;
+        display:inline-block;
+
+    }
+    .celdaverde:nth-child(6){
+        width: 48.5%;
+        display:inline-block;
+    }
+}

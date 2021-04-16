@@ -1,0 +1,75 @@
+.celdaazul{
+    background-color: rgb(25, 139, 233);
+    border: 1px solid black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+@media (max-width:241px){
+    .celdaazul:nth-child(2), .celdaazul:nth-child(8){
+        width: 80%;
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+@media (max-width: 458px) and (min-width: 241px){
+    .celdaazul:nth-child(2){
+        width: 80%;
+        margin-left: 19%;
+    }
+    .celdaazul:nth-child(3), .celdaazul:nth-child(5), .celdaazul:nth-child(7){
+        width: 20%;
+        margin-left: 79%;
+        margin-right: 0px;
+    }
+    .celdaazul:nth-child(1), .celdaazul:nth-child(4), .celdaazul:nth-child(6), .celdaazul:nth-child(10){
+        width: 100%;
+        margin: 0px;
+    }
+    .celdaazul:nth-child(8), .celdaazul:nth-child(9){
+        width: 49%;
+        display: inline-block;
+        margin: 0px;
+    }
+}
+@media (min-width:459px){
+    .celdaazul:nth-child(1), .celdaazul:nth-child(10){
+        width: 20%;
+        margin-left: 79%;
+        margin-right: 0px;
+    }
+    .celdaazul:nth-child(2){
+        width: 20%;
+        display: inline-block;
+    }
+    .celdaazul:nth-child(3){
+        width: 79%;
+        margin: 0px;
+        display: inline-block;
+    }
+    .celdaazul:nth-child(4){
+        width: 20%;
+        margin-right: 79%;
+    }
+    .celdaazul:nth-child(5){
+        width: 69%;
+        margin-left: 30%;
+    }
+    .celdaazul:nth-child(6), .celdaazul:nth-child(7){
+        width: 49%;
+        display: inline-block;
+        margin: 0px;
+    }
+    .celdaazul:nth-child(8){
+        width: 18%;
+        margin: 0px;
+        display: inline-block;
+    }
+    .celdaazul:nth-child(9){
+        width: 22%;
+        margin: 0px;
+        display: inline-block;
+    }
+}
